@@ -233,7 +233,7 @@ public class TableMetaGenerator {
     }
 
     /**
-     * 返回就诶过 key:column name , value=index name
+     * 返回结果 key:column name , value=index name
      */
     public static Map<String/* column name */, String /* index name */> getTableIndex(final DataSource dataSource,
                                                                                       final String schemaName,
